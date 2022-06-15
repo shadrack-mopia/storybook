@@ -31,14 +31,14 @@ export default function Task({
         />
       </div>
 
-      <div classname='actions' onClick={(event) => event.stopPropagation()}>
+      <div className='actions' onClick={(event) => event.stopPropagation()}>
         {state !== 'TASK_ARCHIVED' && (
           // eslint-disable-next-line jsx-a11y/anchor-is-valid
           <a onClick={() => onPinTask(id)}>
             <span
               className={`icon-star`}
               id={`pinTask-${id}`}
-              arial-label={`pinTask-${id}`}
+              aria-label={`pinTask-${id}`}
             />
           </a>
         )}

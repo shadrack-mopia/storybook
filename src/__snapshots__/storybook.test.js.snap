@@ -439,7 +439,7 @@ exports[`Storyshots Task Archived 1`] = `
     />
   </div>
   <div
-    classname="actions"
+    className="actions"
     onClick={[Function]}
   />
 </div>
@@ -476,14 +476,14 @@ exports[`Storyshots Task Default 1`] = `
     />
   </div>
   <div
-    classname="actions"
+    className="actions"
     onClick={[Function]}
   >
     <a
       onClick={[Function]}
     >
       <span
-        arial-label="pinTask-1"
+        aria-label="pinTask-1"
         className="icon-star"
         id="pinTask-1"
       />
@@ -523,14 +523,14 @@ exports[`Storyshots Task Pinned 1`] = `
     />
   </div>
   <div
-    classname="actions"
+    className="actions"
     onClick={[Function]}
   >
     <a
       onClick={[Function]}
     >
       <span
-        arial-label="pinTask-1"
+        aria-label="pinTask-1"
         className="icon-star"
         id="pinTask-1"
       />
@@ -581,14 +581,14 @@ exports[`Storyshots TaskList Default 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-1"
+            aria-label="pinTask-1"
             className="icon-star"
             id="pinTask-1"
           />
@@ -625,14 +625,14 @@ exports[`Storyshots TaskList Default 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-2"
+            aria-label="pinTask-2"
             className="icon-star"
             id="pinTask-2"
           />
@@ -669,14 +669,14 @@ exports[`Storyshots TaskList Default 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-3"
+            aria-label="pinTask-3"
             className="icon-star"
             id="pinTask-3"
           />
@@ -713,14 +713,14 @@ exports[`Storyshots TaskList Default 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-4"
+            aria-label="pinTask-4"
             className="icon-star"
             id="pinTask-4"
           />
@@ -757,14 +757,14 @@ exports[`Storyshots TaskList Default 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-5"
+            aria-label="pinTask-5"
             className="icon-star"
             id="pinTask-5"
           />
@@ -801,14 +801,14 @@ exports[`Storyshots TaskList Default 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-6"
+            aria-label="pinTask-6"
             className="icon-star"
             id="pinTask-6"
           />
@@ -1042,14 +1042,14 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-6"
+            aria-label="pinTask-6"
             className="icon-star"
             id="pinTask-6"
           />
@@ -1086,14 +1086,14 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-1"
+            aria-label="pinTask-1"
             className="icon-star"
             id="pinTask-1"
           />
@@ -1130,14 +1130,14 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-2"
+            aria-label="pinTask-2"
             className="icon-star"
             id="pinTask-2"
           />
@@ -1174,14 +1174,14 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-3"
+            aria-label="pinTask-3"
             className="icon-star"
             id="pinTask-3"
           />
@@ -1218,14 +1218,14 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-4"
+            aria-label="pinTask-4"
             className="icon-star"
             id="pinTask-4"
           />
@@ -1262,14 +1262,14 @@ exports[`Storyshots TaskList With Pinned Tasks 1`] = `
         />
       </div>
       <div
-        classname="actions"
+        className="actions"
         onClick={[Function]}
       >
         <a
           onClick={[Function]}
         >
           <span
-            arial-label="pinTask-5"
+            aria-label="pinTask-5"
             className="icon-star"
             id="pinTask-5"
           />
