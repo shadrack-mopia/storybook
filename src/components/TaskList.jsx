@@ -1,28 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import Task from './Task';
 
-export default function TaskList({
-  loading,
-  tasks,
-  onPinTask,
-  onArchirveTask,
-}) {
+export default function TaskList({ loading, tasks, onPinTask, onArchiveTask }) {
   const events = {
     onPinTask,
-    onArchirveTask,
+    onArchiveTask,
   };
-
   const LoadingRow = (
-    <div classnName='loading-item'>
+    <div className='loading-item'>
       <span className='glow-checkbox' />
-      <span className='glow-test'>
+      <span className='glow-text'>
         <span>Loading</span> <span>cool</span> <span>state</span>
       </span>
     </div>
   );
-
   if (loading) {
     return (
       <div className='list-items' data-testid='loading' key={'loading'}>
@@ -35,11 +27,10 @@ export default function TaskList({
       </div>
     );
   }
-
   if (tasks.length === 0) {
     return (
-      <div clasName='list-items' key={'empty'} data-testid='empty'>
-        <div clasName='wrapper-message'>
+      <div className='list-items' key={'empty'} data-testid='empty'>
+        <div className='wrapper-message'>
           <span className='icon-check' />
           <div className='title-message'>You have no tasks</div>
           <div className='subtitle-message'>Sit back and relax</div>
@@ -47,21 +38,18 @@ export default function TaskList({
       </div>
     );
   }
-
   const tasksInOrder = [
     ...tasks.filter((t) => t.state === 'TASK_PINNED'),
     ...tasks.filter((t) => t.state !== 'TASK_PINNED'),
   ];
-
   return (
-    <div className='list-items'>
+    <div className='list-items' data-testid='success' key={'success'}>
       {tasksInOrder.map((task) => (
         <Task key={task.id} task={task} {...events} />
       ))}
     </div>
   );
 }
-
 TaskList.propTypes = {
   /** Checks if it's in loading state */
   loading: PropTypes.bool,
